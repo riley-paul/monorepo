@@ -4,7 +4,9 @@ import { toast } from "sonner";
 
 const component: React.FC = () => {
   return (
-    <Button onClick={() => toast.success("World")}>Hello</Button>
+    <Button variant="secondary" onClick={() => toast.success("World")}>
+      Hello
+    </Button>
   );
 };
 

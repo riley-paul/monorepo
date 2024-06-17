@@ -8,7 +8,7 @@ export const Route = createRootRoute({
       <nav className="flex h-[3.5rem] items-center border-b">
         <div className="container2 flex w-full items-center gap-2">
           <Link to="/" className="flex items-center">
-            <PocketKnife className="mr-3 h-6 w-6" />
+            <PocketKnife className="mr-3 h-6 w-6 text-primary" />
             <h1 className="text-2xl font-semibold">App Name</h1>
           </Link>
         </div>
